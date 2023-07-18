@@ -1,11 +1,20 @@
 {
   "expo": {
     "name": "my-nativewind-app",
-    "slug": "my-nativewind-app",
-    "version": "1.0.0",
+    "slug": "tailwind-css-test",
+    "version": "1.0.2",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9ff12d06-cc16-48e5-b431-d9e07f5832cc"
+      }
+    },
+    "owner": "iammhador",
+    "android": {
+      "versionCode": 5
+    }
   },
   "name": "my-nativewind-app"
 }
