@@ -38,6 +38,6 @@
         );
     }
 
-#### Change expo version to 47.0.0. In terminal command npm init and initial a project. After that go to https://expo.dev/ website and create a project. Collect eas init id like this example " eas init --id 3cb3-c05a-4b10-872e-23ca3sqs1f79 " . Then run " expo build " . After completing the build, You will see a " app.json " and " eas.json " file. In the " app.json " file, You have to change " version and versionCode ". After that go to eas.json file. In the file you can add, In the development & production dependence to "autoIncrement": true," and run eas.build. More info on this site: " https://docs.expo.dev/archive/classic-updates/building-standalone-apps/ " .
+#### Change expo version to 47.0.0. In terminal command npm init and initial a project. After that go to https://expo.dev/ website and create a project. Collect eas init id like this example " eas init --id 3cb3-c05a-4b10-872e-23ca3sqs1f79 " . Then run " eas build " . After completing the build, You will see a " app.json " and " eas.json " file. In the " app.json " file, You have to change " version and versionCode ". After that go to eas.json file. In the file you can add, In the development & production dependence to "autoIncrement": true," and run eas.build. More info on this site: " https://docs.expo.dev/archive/classic-updates/building-standalone-apps/ " .
 
 #### When you first time build a project, expo build version and version code will get set automatically. You can check your project to use this link: " https://expo.dev/ "
